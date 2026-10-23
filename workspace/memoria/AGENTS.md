@@ -25,3 +25,4 @@
 
 ## Lições aprendidas (o agente acrescenta abaixo, 1 linha por lição)
 - Fila de notificações crescendo costuma ser efeito colateral de retries da API produtora.
+- Quando checkout-api mostra CPU baixa com `PoolTimeout`, investigue primeiro dependência/pool do banco antes de escalar a API.
